@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Activity Portal</title>
+    <link rel="stylesheet" href="labexam1.css">
+</head>
+<body>
+    <header>
+        <h1>Student Activity Portal</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#events">Events</a>
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Our University</h2>
+            <p>Explore different activities and participate in university events.</p>
+        </section>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>Technical Fest</h3>
+                <p>Participate in various technical competitions.</p>
+                <p>Date: December 10, 2026</p>
+            </article>
+            <article>
+                <h3>Cultural Fest</h3>
+                <p>Participate in music, dance and other cultural activities.</p>
+                <p>Date: December 15, 2026</p>
+            </article>
+            <article>
+                <h3>Sports Meet</h3>
+                <p>Take part in various indoor and outdoor games.</p>
+                <p>Date: December 20, 2026</p>
+            </article>
+        </section>
+        <aside>
+            <h3>Notice</h3>
+            <p>Register before the last date of each event.</p>
+        </aside>
+        <section id="register">
+            <h2 >Student Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="year">Select Year:</label>
+                <select id="year" name="year">
+                    <option>First Year</option>
+                    <option>Second Year</option>
+                    <option>Third Year</option>
+                    <option>Fourth Year</option>
+                </select><br><br>
+                <p>Participation Type:</p>
+                <input type="radio" id="individual"
+                       name="type" value="Individual">
+                <label for="individual">Individual</label>
+                <input type="radio" id="team"
+                       name="type" value="Team">
+                <label for="team">Team</label><br><br>
+                <p>Select Interests:</p>
+                <input type="checkbox" id="technical" name="interest" value="Technical">
+                <label for="technical">Technical</label>
+                <input type="checkbox" id="cultural" name="interest" value="Cultural">
+                <label for="cultural">Cultural</label>
+                <input type="checkbox" id="sports" name="interest" value="Sports">
+                <label for="sports">Sports</label><br><br>
+                <label for="message">Additional Information:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> Student Activity Portal</p>
+    </footer>
+</body>
+</html>

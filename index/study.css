@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fb;
+            color: #202938;
+        }
+
+
+        /* TOP NAVIGATION BAR */
+        .topbar {
+            height: 65px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 25px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .logo {
+            font-size: 21px;
+            font-weight: bold;
+            color: #17243b;
+        }
+        .search {
+            width: 42%;
+            padding: 11px 14px;
+            border: 1px solid #e1e5eb;
+            border-radius: 7px;
+            background-color: #f8fafc;
+            font-size: 14px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            font-size: 14px;
+        }
+
+        .bell {
+            font-size: 20px;
+        }
+
+        .avatar {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: #dbeafe;
+            color: #1d4ed8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        /* SIDEBAR AND MAIN CONTENT */
+        .layout {
+            display: flex;
+            min-height: calc(100vh - 66px);
+        }
+
+        /* LEFT SIDEBAR */
+        .sidebar {
+            width: 220px;
+            background-color: white;
+            padding: 22px 14px;
+            box-sizing: border-box;
+            border-right: 1px solid #e5e7eb;
+        }
+
+        .sidebar a {
+            display: block;
+            text-decoration: none;
+            color: #596579;
+            padding: 12px 13px;
+            margin-bottom: 5px;
+            border-radius: 7px;
+            font-size: 14px;
+        }
+
+        .sidebar a:hover {
+            background-color: #eef2ff;
+            color: #243b70;
+        }
+
+        .sidebar a.active {
+            background-color: #17243b;
+            color: white;
+        }
+
+        /* MAIN CONTENT AREA */
+        .main-content {
+            flex: 1;
+            padding: 30px;
+        }
+
+        .placeholder {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+        }

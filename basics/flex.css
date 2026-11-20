@@ -1,0 +1,13 @@
+ .flex-item{
+        background-color:#f2f2f2;
+        padding:20px;
+        margin:10px;
+        border:1px solid #ccc;
+    }
+.flex-container{
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+    }
+
+            

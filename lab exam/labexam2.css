@@ -1,0 +1,145 @@
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #193b65;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Welcome Section */
+#home {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* Services and Doctors Layout */
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Services and Doctors */
+.container section {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Articles */
+article {
+    background-color: #e5e7eb;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Hospital Timings */
+aside {
+    background-color: #fff4d6;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Appointment Section */
+#appointment {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Form */
+form {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Form Labels */
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+input:not([type="radio"]),
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    margin: 10px;
+}
+
+/* Keyboard Focus */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+nav a:focus {
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+
+/* Button */
+button {
+    display: block;
+    background-color: #193b65;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #193b65;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container section {
+        width: auto;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}

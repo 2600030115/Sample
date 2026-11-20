@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>a-form example</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+       
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+            <label>Enter Date:</label>
+            <input type="date" id="date" name="date"><br><br><hr>
+            <label for="name">Enter your Name:</label>
+            <input type="text" id="name" name="name"><br><br><hr>
+            <label for="dob">Enter your date of birth:</label>
+            <input type="date" id="dob" name="dob"><br><br><hr>
+            <label for="age">Enter your age:</label>
+            <input type="number" id="age" name="age"><br><br><hr>     
+            <label for="mother_name">Enter your mother's name:</label>
+            <input type="text" id="mother_name" name="mother_name"><br><br><hr>
+            <label for="father_name">Enter your father's name:</label>
+            <input type="text" id="father_name" name="father_name"><br><br><hr>
+            <label for="mobile_number">Enter mobile number:</label>
+            <input type="number" id="mobile_number" name="mobile_number"><br><br><hr>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br><br><hr>
+            <label>Enter your password:</label>
+            <input type="password" id="password" name="password"><br><br><hr>
+            <label>Enter your gender</label><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br><hr>
+            <label>Enter your hobbies</label><br><br>
+            <input type="checkbox" id="hobby1" name="hobby1" value="art">
+            <lable for="hobby1">Art</lable><br><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="writing">
+            <label for="hobby2">Writing</label><br><br>
+            <input type="checkbox" id="hobby3" name="hobby3" value="crafting">
+            <label for="hobby3">Crafting</label><br><br>
+            <input type="checkbox" id="hobby4" name="hobby4" value="vlogging">
+            <label for="hobby4">Vlogging</label><br><br>
+            <input type="checkbox" id="hobby5" name="hobby5" value="movies">
+            <label for="hobby5">Movies</label><br><br>
+            <input type="checkbox" id="hobby6" name="hobby6" value="swimming">
+            <label for="hobby6">Swimming</label><br><br>
+            <input type="checkbox" id="hobby7" name="hobby7" value="reading">
+            <label for="hobby7">Reading</label><br><br>
+            <input type="checkbox" id="hobby8" name="hobby8" value="travelling">
+            <label for="hobby8">Travelling</label><br><br>
+            <input type="checkbox" id="hobby9" name="hobby9" value="music">
+            <label for="hobby9">Music</label><br><br><hr>
+            <label for="country">Select your country:</label>
+            <select name ="country" id="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+            </select>
+            <br><br><hr>
+            <label for="state">Select your state:</label>
+            <select name="state" id="state">
+                <option value="maharashtra">Maharashtra</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="rajasthan">Rajasthan</option>
+                <option value="punjab">Punjab</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="andhra pradesh">Andhra Pradesh</option>
+            </select><hr>
+            <input type="submit" value="save" onclick="alert('form submitted')">
+            <input type="reset" value="reset" onclick="alert('form reset')">
+            
+
+        </form>
+    </body>
+</html>
