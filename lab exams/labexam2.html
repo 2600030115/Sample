@@ -1,21 +1,16 @@
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Care Hospital</title>
     <link rel="stylesheet" href="labexam2.css">
 </head>
-
 <body>
-
-    <!-- Header -->
     <header>
         <h1>City Care Hospital</h1>
         <p>Your Health, Our Priority</p>
-
         <nav>
             <a href="#home">Home</a>
             <a href="#services">Services</a>
@@ -23,123 +18,74 @@
             <a href="#appointment">Appointment</a>
         </nav>
     </header>
-
     <main>
-
-        <!-- Welcome Section -->
         <section id="home">
             <h2>Welcome to City Care Hospital</h2>
-            <p>
-                We provide quality healthcare services
-                to keep you healthy and happy.
-            </p>
+            <p>We provide quality healthcare services, our patients are our first priority</p>
         </section>
-
-        <!-- Services and Doctors -->
         <div class="container">
-
-            <!-- Services -->
             <section id="services">
                 <h2>Our Services</h2>
-
                 <article>
                     <h3>Cardiology</h3>
                     <p>Heart care services.</p>
                 </article>
-
                 <article>
                     <h3>Neurology</h3>
                     <p>Brain care services.</p>
                 </article>
-
                 <article>
                     <h3>Emergency Care</h3>
                     <p>Emergency medical services.</p>
                 </article>
             </section>
-
-            <!-- Doctors -->
             <section id="doctors">
                 <h2>Our Doctors</h2>
-
                 <article>
                     <h3>Dr. Ravi Kumar</h3>
                     <p>Cardiologist</p>
                 </article>
-
                 <article>
                     <h3>Dr. Priya Sharma</h3>
                     <p>Neurologist</p>
                 </article>
             </section>
-
         </div>
-
-        <!-- Hospital Timings -->
         <aside>
             <h2>Hospital Timings</h2>
             <p>Monday to Saturday: 9 AM - 6 PM</p>
             <p>Sunday: Emergency Services Only</p>
         </aside>
-
-        <!-- Appointment Form -->
         <section id="appointment">
-
             <h2>Book an Appointment</h2>
-
             <form>
-
                 <label for="name">Patient Name:</label>
-                <input type="text" id="name" name="name" required>
-
+                <input type="text" id="name" name="name">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
+                <input type="email" id="email" name="email">
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone"
-                       pattern="[0-9]{10}"
-                       maxlength="10"
-                       placeholder="Enter 10 digit number"
-                       required>
-
+                <input type="tel" id="phone" name="phone">
                 <label for="date">Appointment Date:</label>
-                <input type="date" id="date" name="date" required>
-
+                <input type="date" id="date" name="date">
                 <label for="doctor">Select Doctor:</label>
-                <select id="doctor" name="doctor" required>
+                <select id="doctor" name="doctor" >
                     <option value="">Choose Doctor</option>
                     <option value="Ravi">Dr. Ravi Kumar</option>
                     <option value="Priya">Dr. Priya Sharma</option>
                 </select>
-
                 <p>Gender:</p>
-
-                <input type="radio" id="male" name="gender"
-                       value="Male" required>
                 <label for="male">Male</label>
-
-                <input type="radio" id="female" name="gender"
-                       value="Female">
-                <label for="female">Female</label>
-
+                <input type="radio" id="male" name="gender"value="Male" >
+                <label for="male">Female</label>
+                <input type="radio" id="female" name="gender" value="Female">
                 <label for="message">Health Concerns:</label>
-                <textarea id="message" name="message"
-                          rows="4"
-                          placeholder="Enter your message"></textarea>
-
+                <textarea id="message" name="message"></textarea>
                 <button type="submit">Book Appointment</button>
-
             </form>
-
         </section>
-
     </main>
-
-    <!-- Footer -->
     <footer>
-        <p>Copyright 2026 City Care Hospital</p>
-        <p>Contact: citycare@example.com</p>
+        <p>Contact: citycare@gmail.com</p>
     </footer>
-
 </body>
 </html>
