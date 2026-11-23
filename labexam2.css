@@ -1,0 +1,215 @@
+<<<<<<<< HEAD:lab exams/labexam2.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 193, 252);
+    margin: 0;
+}
+header {
+    background-color: #a5f815;
+    color: black;
+    text-align: center;
+    text-decoration-style: dotted;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+    margin-top: 15px;
+}
+nav a:hover{
+    color:red;
+    transform:scale(1.2);
+    transition:transform 0.3s ease;
+}
+nav a {
+    color: black;
+    text-decoration: dotted;
+    margin: 15px;
+}
+#home {
+    background-color: darkblue;
+    text-align: center;
+    color:white;
+    padding: 30px;
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:bold;
+    color:white
+}
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+.container section {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+article {
+    background-color: #e5e7eb;
+    padding: 15px;
+    margin: 10px;
+}
+aside {
+    background-color: #fff4d6;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#appointment {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+form {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input:not([type="radio"]),
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+input[type="radio"] {
+    margin: 10px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+nav a:focus {
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+button {
+    display: block;
+    background-color: #193b65;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer {
+    background-color: #193b65;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+========
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 193, 252);
+    margin: 0;
+}
+header {
+    background-color: #a5f815;
+    color: black;
+    text-align: center;
+    text-decoration-style: dotted;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+    margin-top: 15px;
+}
+nav a:hover{
+    color:red;
+    transform:scale(1.2);
+    transition:transform 0.3s ease;
+}
+nav a {
+    color: black;
+    text-decoration: dotted;
+    margin: 15px;
+}
+#home {
+    background-color: darkblue;
+    text-align: center;
+    color:white;
+    padding: 30px;
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:bold;
+    color:white
+}
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+.container section {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+article {
+    background-color: #e5e7eb;
+    padding: 15px;
+    margin: 10px;
+}
+aside {
+    background-color: #fff4d6;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#appointment {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+form {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input:not([type="radio"]),
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+input[type="radio"] {
+    margin: 10px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+nav a:focus {
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+button {
+    display: block;
+    background-color: #193b65;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer {
+    background-color: #193b65;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+>>>>>>>> 53da92bcbfcac3ec7ce247e0f9dc45b29e251197:labexam2.css
