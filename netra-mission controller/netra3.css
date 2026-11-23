@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display:flex;
+    background-color:rgb(5, 5, 75);
+    height:125px;
+    padding:0, 20px;
+    border-bottom:1px white;
+    color:white;
+    align-items:center;
+}
+
+.brand-section{
+    display: flex;
+ align-items: center;
+    gap: 8px;
+}
+.brand-name{
+    font-size:45px ;
+    color:#4aa9f7;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    font-size:80px ;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#50b5ff;
+}
+.title-section{
+    margin-left:40px;
+}
+.title-section h2{
+    font-size: 30px;
+    color:white;
+    
+}
+.title-section p{
+    font-size:15px;
+    color:white;
+}
+.right-section{
+    display:flex;
+    align-items:center;
+    margin-left:auto;
+    gap:30px;
+}
+.status-dot{
+   display:inline-block;
+   background-color:#16e9a1;
+   width:15px;
+   height:15px;
+   border-radius:50%;
+}
+.status{
+    font-size:18px;
+    color:#16e9a1;
+}
+.dispatch-btn{
+    background-color:rgb(68, 85, 231);
+    height:20px;
+    padding:15px, 25px;
+    border:none;
+    border-radius:12px;
+    color:white;
+    align-items:center;
+    cursor:pointer;
+}
+.page{
+    padding:35px 5%;
+}
+.page p{
+    color:#91a8c5;
+}
+.kpi-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:16px;
+    margin-bottom: 30px;
+}
+.kpi-card{
+    background: #283445;
+    border: 1px solid #29548d;
+    border-radius: 12px;
+    padding: 22px;
+    transition: 0.2s;
+}
+.kpi-card:hover{
+    border-color:#438cff;
+    transform:translateY(-3px);
+}
+.kpi-card span {
+    color: #91a8c5;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.kpi-card h2 {
+    color: #54a5ff;
+    font-size: 29px;
+    margin: 14px 0 8px;
+}
+.kpi-card p {
+    color: #91a8c5;
+    font-size: 12px;
+}
